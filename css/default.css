@@ -1,0 +1,38 @@
+body {
+  background: #fff;
+}
+.container {
+  width: 80%;
+  max-width: 1440px;
+  margin: 0 auto;
+}
+.title {
+  font-family: 'Fira Mono', sans-serif;
+  text-align: center;
+  font-weight: 800;
+  color: #a08aae;
+}
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+.grid {
+  position: relative;
+  display: grid;
+  width: 100%;
+  margin: 0 -20px;
+}
+.grid.grid-1 {
+  grid-template-columns: auto;
+}
+.grid.grid-2 {
+  grid-template-columns: auto auto;
+}
+.grid.grid-3 {
+  grid-template-columns: auto auto auto;
+}
+.grid-items {
+  position: relative;
+  padding: 0 20px;
+}
